@@ -10,7 +10,7 @@ const MealsList = () =>{
 
   const fetchMealsHandler  = async () =>{
     try{
-      const response = await fetch('https://food-order-app-220b3-default-rtdb.firebaseio.com/meals.json');
+      const response = await fetch('https://food-order-app-41b91-default-rtdb.firebaseio.com/meals.json');
       if(!response.ok){
         throw new Error('Something went wrong');
       }
