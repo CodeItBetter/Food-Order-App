@@ -18,7 +18,7 @@ const Cart = () =>{
 
     const userDataHandler = async (userData) =>{
         
-        await fetch('https://food-order-app-220b3-default-rtdb.firebaseio.com/orders.json',{
+        await fetch('https://food-order-app-41b91-default-rtdb.firebaseio.com/orders.json',{
             method: 'POST',
             headers: {"content-type": "application/json"},
             body: JSON.stringify({
